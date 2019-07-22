@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  scrapy-chromium-docker:
+    image: scrapy-chromium-docker
+    build: .
+    volumes:
+      - "./volumes/app:/app"
